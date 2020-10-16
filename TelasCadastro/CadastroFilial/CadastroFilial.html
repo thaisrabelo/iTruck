@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>iTruck Cadastro de Filial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="CadastroFilial.css" rel="stylesheet">
+  <script src="CadastroFilial.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+  <h2>Cadastro Filial</h2>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <form id = 'cadastroFilialContainer' class="needs-validation" name="cadastroFilialForm" action="paginaPrincipal/paginaPrincipalIndex.html" onsubmit="return validateLogin()">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="razaSocial">Razão Social:</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="razaSocial" name="razaSocial">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label for="CNPJ">CNPJ:</label>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="CNPJ" name="CNPJ">
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="valorHoraExtra">Valor hora extra:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="valorHoraExtra" name="valorHoraExtra">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="endereco">Endereço:</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="endereco" name="endereco">
+                    </div>
+                    <div class="col-sm-1">
+                        <label for="numero">N°:</label>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="numero" name="numero">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label for="CEP">CEP:</label>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="CEP" name="CEP">
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="cidade">Cidade:</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="cidade" name="cidade">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label for="estado">Estado:</label>
+                    </div>
+                    <div class="col-sm-11">
+                        <select class="custom-select" id="estado" name="estado">
+                            <option selected>...</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="BA">Bahia</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                        </select>
+                    </div>
+                </div>               
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="tel1">Telefone1:</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tel1" name="tel1">
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="tel2">Telefone2:</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tel2" name="tel2">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" value="register" class="btn btn-primary btn-block">CADASTRAR</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

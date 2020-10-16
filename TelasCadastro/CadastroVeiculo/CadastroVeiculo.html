@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>iTruck Cadastro de Veículo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="CadastroVeiculo.css" rel="stylesheet">
+  <script src="CadastroVeiculo.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+  <h2>Cadastro de Veículo</h2>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <form id = 'cadastroVeiculoContainer' class="needs-validation" name="cadastroVeiculoForm" action="paginaPrincipal/paginaPrincipalIndex.html" onsubmit="return validateLogin()">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-1">
+                        <label for="marca">Marca:</label>
+                    </div>
+                    <div class="col-sm-11">
+                        <input type="text" class="form-control" id="marca" name="marca">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2">
+                        <label for="modelo">Modelo:</label>
+                    </div>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="modelo" name="modelo">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label for="ano">Ano:</label>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="ano" name="ano">
+                    </div>
+                    <div class="col-sm-1">
+                        <label for="cor">Cor:</label>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="cor" name="cor">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label for="placa">Placa:</label>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="placa" name="placa">
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="estado">Estado:</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <select class="custom-select" id="estado" name="estado">
+                            <option selected>...</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="BA">Bahia</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" value="register" class="btn btn-primary btn-block">CADASTRAR</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

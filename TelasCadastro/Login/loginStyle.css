@@ -1,0 +1,12 @@
+#loginContainer
+{
+    align-self: center;
+    background-color: aliceblue;
+}
+body
+{
+    background-image: url('img/caminhao.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
