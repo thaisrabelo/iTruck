@@ -1,4 +1,4 @@
-![topo-readME](https://user-images.githubusercontent.com/56441214/87261187-ae2e7580-c48b-11ea-91de-e2bad8f5b938.png)
+![topo-readME](https://github.com/thaisrabelo/iTruck/blob/main/img/logo_fatec.png)
 
 
 # Projeto Integrador - Fatec São José dos Campos
