@@ -4,7 +4,7 @@
 
 #content-title {
   background-color: #006478;
-  width: 1000px;
+  width: 1100px;
   padding: 5px;
   text-align: center;
   border-radius: 5px;
@@ -15,9 +15,10 @@
 }
 
 table{
-  width: 1000px;
+  width: 1100px;
   text-align: center;
   border-spacing: 8px;
+  margin: 0px;
 }
 
 th {
