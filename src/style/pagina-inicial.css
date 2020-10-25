@@ -71,7 +71,7 @@ body{
 .container{
   display: flex;
   flex-direction: column;
-  margin-left: 550px;
+  margin-left: 500px;
   margin-top: 400px;
   height: 100%;
   padding: 5px;
