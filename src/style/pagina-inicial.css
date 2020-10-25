@@ -1,3 +1,12 @@
-.main-content {
-  
+body {
+  margin: 0;
+}
+
+.sidebar-content {
+  position: fixed;
+  width: 460px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #B5F0FF ;
 }
