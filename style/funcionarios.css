@@ -19,6 +19,7 @@ table{
   text-align: center;
   border-spacing: 8px;
   margin: 0px;
+  margin-bottom: 30px;
 }
 
 th {
@@ -38,4 +39,33 @@ td{
 
 .line2{
   background-color: #fff;
+}
+
+.btn-cadastrar{
+
+  background-color: #57DCFF;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 450px;
+  margin-top: 500px;
+  color: #006478;
+
+}
+
+form{
+  margin-left: 190px;
+}
+
+label, input, select {
+  margin: 5px;
+  border-color: #006478;
+  color: #006478;
+  font-weight: bold ;
+  align-text: center;
+}
+
+input, select {
+  margin-left: 30px;
+  margin-right: 30px;
 }
