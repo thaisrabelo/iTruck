@@ -51,19 +51,20 @@
     <div class="main">
       <div class="container">   
           <div id="content-title">
-          VISUALIZAR FUNCIONÁRIO   
+          FUNCIONÁRIO   
           </div>
-          <form action="cadastro-salvo.html">
+            <form action="cadastro-salvo.html">
             <div class="separator"><label for="name-funcionario">Nome:</label>
-            <input type="text" id="name-funcionario" name="name-funcionario">
+            <input class="input-name"type="text" id="name-funcionario" name="name-funcionario">
             </div>
-            <div class="separator"><label for="cpf">CPF:</label>
-            <input type="text"id="cpf-funcionario" name="cpf-funcionario">
+            <div class="separator"><label class="label-cpf"for="cpf">CPF:</label>
+            <input class="input-cpf cpf-mask"type=""id="cpf-funcionario" name="cpf-funcionario" size="11"  placeholder="Ex.: 123.456.789-00" data-mask="000.000.000-00" maxlength="14" autocomplete="off">
             <label for="rg">RG:</label>
-            <input type="text" id="rg-funcionario" name:="rg-funcionario">
+            <input class="input-rg rg-mask"type="number" id="rg-funcionario" name:="rg-funcionario"
+            placeholder="Ex.: 12.345.678-9" data-mask="00.000.000-0" maxlength="12" autocomplete="off">
             </div>
-            <div class="separator"> <label for="id-filiais">Escolha uma filial</label>
-              <select id="filiais">
+            <div class="separator"> <label for="id-filiais">Escolha uma filial:</label>
+              <select id="filiais" class="select-filiais">
                 <option value="selecione" selected>Selecione uma opção</option>
                 <option value="sjc">São José dos Campos</option>
                 <option value="jacarei">Jacareí</option>
@@ -71,7 +72,7 @@
                 <option value="curitiba">Curitiba</option>
               </select> 
             <label for="cargo">Cargo:</label>
-            <select id="cargos">
+            <select id="cargos" class="select-cargos">
               <option value="selecione" selected>Selecione uma opção</option>
               <option value="administrador">Administrador</option>
               <option value="entregador">Entregador</option>
@@ -81,14 +82,14 @@
             </select>
             </div>
             <div class="separator"><label for="endereço">Endereço:</label>
-            <input type="text"id="endereço" name="endereço">
+            <input type="text"id="endereço" name="endereço" class="input-endereço">
             <label for="endereço-numero">Número:</label>
-            <input type="text" id="endereço-numero" name:="endereço-numero">
+            <input type="text" id="endereço-numero" name:="endereço-numero" class="input-num-end"> 
             </div>
             <div class="separator"><label for="cep">CEP:</label>
-            <input type="text"id="cep" name="cep">
+            <input type="text"id="cep" name="cep" class="input-cep">
             <label for="estado">Estado:</label>
-            <select id="estados">
+            <select id="estados" class="select-estado">
               <option value="estado">Selecione o Estado</option> 
               <option value="ac">Acre</option> 
               <option value="al">Alagoas</option> 
@@ -120,18 +121,18 @@
             </select>
             </div>
             <div class="separator"><label for="telefone">Telefone:</label>
-              <input type="text"id="telefone" name="telefone">
+              <input type="text"id="telefone" name="telefone" class="input-telefone"
+              placeholder="Ex.: (12)1234-5678" data-mask="(00)0000-0000" maxlength="13" autocomplete="off">
               <label for="celular">Celular:</label>
-              <input type="text" id="celular" name:="celular">
+              <input type="text" id="celular" name:="celular" class="input-celular" placeholder="Ex.: (12)91234-5678" data-mask="(00)00000-0000" maxlength="14" autocomplete="off">
               </div>
               <div class="separator"><label for="email">Email:</label>
-                <input type="text"id="email" name="email">
+                <input type="email"id="email" name="email" class="input-email" placeholder="Ex.: joão-motorista@entregasrapidas.com">
               </div>
               <div class="separator"><label for="login">Login:</label>
-                <input type="text"id="login" name="login">
-              </div>
-              <div class="separator"><label for="senha">Senha:</label>
-                <input type="text"id="senha" name="senha">
+                <input type="text"id="login" name="login" class="input-login" placeholder="Crie um login">
+                <label for="senha">Senha:</label>
+                <input type="password"id="senha" name="senha" class="input-senha" placeholder="Crie uma senha de 8 caracteres" maxlength="8" autocomplete="off">
               </div>
 
           </form>

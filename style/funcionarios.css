@@ -67,5 +67,46 @@ label, input, select {
 
 input, select {
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right  : 30px;
+  padding: 5px;
+}
+
+.input-name, .input-email{
+  width: 582px;
+  margin-bottom:20px
+}
+
+.input-name {
+  margin-top: 30px;
+}
+.label-cpf{
+  margin-right: 18px;
+}
+.input-cpf, .input-rg{
+  margin-bottom: 20px;
+  width: 230px;
+}
+
+.select-filiais, .select-cargos {
+  margin-bottom: 20px;
+  width: 190px;
+}
+
+.input-endereço, .input-num-end, .input-telefone, .input-celular{
+  margin-bottom:20px;
+  width: 200px;
+}
+
+.input-cep, .select-estado{
+  margin-bottom: 20px;
+  width: 230px;
+}
+.input-telefone, .input-celular{
+  margin-bottom:20px;
+  width: 206px;
+}
+
+.input-login, .input-senha{
+  margin-bottom: 50px;
+  width: 218px;
 }
