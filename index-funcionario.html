@@ -6,6 +6,7 @@
     <title>Entregas Rápidas by iTruck Solutions</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/funcionarios.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
   </head>
   <body>
@@ -54,91 +55,128 @@
           FUNCIONÁRIO   
           </div>
             <form action="cadastro-salvo.html">
-            <div class="separator"><label for="name-funcionario">Nome:</label>
-            <input class="input-name"type="text" id="name-funcionario" name="name-funcionario">
-            </div>
-            <div class="separator"><label class="label-cpf"for="cpf">CPF:</label>
-            <input class="input-cpf cpf-mask"type=""id="cpf-funcionario" name="cpf-funcionario" size="11"  placeholder="Ex.: 123.456.789-00" data-mask="000.000.000-00" maxlength="14" autocomplete="off">
-            <label for="rg">RG:</label>
-            <input class="input-rg rg-mask"type="number" id="rg-funcionario" name:="rg-funcionario"
-            placeholder="Ex.: 12.345.678-9" data-mask="00.000.000-0" maxlength="12" autocomplete="off">
-            </div>
-            <div class="separator"> <label for="id-filiais">Escolha uma filial:</label>
-              <select id="filiais" class="select-filiais">
+              <div class="separator"><label for="name-funcionario">Nome:</label>
+                <input class="input-name"type="text" id="name-funcionario" name="name-funcionario">
+                </div>
+                <div class="separator"><label class="label-cpf"for="cpf">CPF:</label>
+                <input class="input-cpf cpf-mask"type=""id="cpf-funcionario" name="cpf-funcionario" size="11" placeholder="Ex.: 123.456.789-00" data-mask="000.000.000-00" maxlength="14" autocomplete="off">
+                <label for="rg">RG:</label>
+                <input class="input-rg rg-mask"type="number" id="rg-funcionario" name:="rg-funcionario"
+                placeholder="Ex.: 12.345.678-9" data-mask="00.000.000-0" maxlength="12" autocomplete="off">
+                </div>
+                <div class="separator"><label for="cep">CEP:</label>
+                  <input type="text"id="cep" name="cep" class="input-cep" required>
+                  <label for="logradouro">Logradouro:</label>
+                  <input type="text"id="logradouro" name="logradouro" class="input-endereço" required>
+                </div>
+                <div class="separator">
+                  <label for="numero">Número:</label>
+                  <input type="text" id="numero" name:="numero" class="input-num-end"> 
+                  <label for="complemento">Complemento:</label>
+                  <input type="text" id="complemento" name:="complemento" class="complemento"> 
+                </div>
+                <div class="separator">
+                  <label for="bairro">Bairro:</label>
+                  <input type="text" id="bairro" name:="bairro" class="bairro" required> 
+                  <label for="uf">Estado:</label>
+                <select id="uf" class="select-estado">
+                <option value="estado">Selecione o Estado</option> 
+                <option value="ac">Acre</option> 
+                <option value="al">Alagoas</option> 
+                <option value="am">Amazonas</option> 
+                <option value="ap">Amapá</option> 
+                <option value="ba">Bahia</option> 
+                <option value="ce">Ceará</option> 
+                <option value="df">Distrito Federal</option> 
+                <option value="es">Espírito Santo</option> 
+                <option value="go">Goiás</option> 
+                <option value="ma">Maranhão</option> 
+                <option value="mt">Mato Grosso</option> 
+                <option value="ms">Mato Grosso do Sul</option> 
+                <option value="mg">Minas Gerais</option> 
+                <option value="pa">Pará</option> 
+                <option value="pb">Paraíba</option> 
+                <option value="pr">Paraná</option> 
+                <option value="pe">Pernambuco</option> 
+                <option value="pi">Piauí</option> 
+                <option value="rj">Rio de Janeiro</option> 
+                <option value="rn">Rio Grande do Norte</option> 
+                <option value="ro">Rondônia</option> 
+                <option value="rs">Rio Grande do Sul</option> 
+                <option value="rr">Roraima</option> 
+                <option value="sc">Santa Catarina</option> 
+                <option value="se">Sergipe</option> 
+                <option value="sp">São Paulo</option> 
+                <option value="to">Tocantins</option> 
+                </select> 
+                </div>
+                <div class="separator"><label for="telefone">Telefone:</label>
+                  <input type="text"id="telefone" name="telefone" class="input-telefone"
+                  placeholder="Ex.: (12)1234-5678" data-mask="(00)0000-0000" maxlength="13" autocomplete="off">
+                  <label for="celular">Celular:</label>
+                  <input type="text" id="celular" name:="celular" class="input-celular" placeholder="Ex.: (12)91234-5678" data-mask="(00)00000-0000" maxlength="14" autocomplete="off">
+                  </div>
+
+
+                <div class="separator"> <label for="id-filiais">Escolha uma filial:</label>
+                <select id="filiais" class="select-filiais">
                 <option value="selecione" selected>Selecione uma opção</option>
-                <option value="sjc">São José dos Campos</option>
-                <option value="jacarei">Jacareí</option>
-                <option value="ipeúna">Ipeúna</option>
-                <option value="curitiba">Curitiba</option>
-              </select> 
-            <label for="cargo">Cargo:</label>
-            <select id="cargos" class="select-cargos">
-              <option value="selecione" selected>Selecione uma opção</option>
-              <option value="administrador">Administrador</option>
-              <option value="entregador">Entregador</option>
-              <option value="motorista">Motorista</option>
-              <option value="supervisor">Surpervisor</option>
-              
-            </select>
-            </div>
-            <div class="separator"><label for="endereço">Endereço:</label>
-            <input type="text"id="endereço" name="endereço" class="input-endereço">
-            <label for="endereço-numero">Número:</label>
-            <input type="text" id="endereço-numero" name:="endereço-numero" class="input-num-end"> 
-            </div>
-            <div class="separator"><label for="cep">CEP:</label>
-            <input type="text"id="cep" name="cep" class="input-cep">
-            <label for="estado">Estado:</label>
-            <select id="estados" class="select-estado">
-              <option value="estado">Selecione o Estado</option> 
-              <option value="ac">Acre</option> 
-              <option value="al">Alagoas</option> 
-              <option value="am">Amazonas</option> 
-              <option value="ap">Amapá</option> 
-              <option value="ba">Bahia</option> 
-              <option value="ce">Ceará</option> 
-              <option value="df">Distrito Federal</option> 
-              <option value="es">Espírito Santo</option> 
-              <option value="go">Goiás</option> 
-              <option value="ma">Maranhão</option> 
-              <option value="mt">Mato Grosso</option> 
-              <option value="ms">Mato Grosso do Sul</option> 
-              <option value="mg">Minas Gerais</option> 
-              <option value="pa">Pará</option> 
-              <option value="pb">Paraíba</option> 
-              <option value="pr">Paraná</option> 
-              <option value="pe">Pernambuco</option> 
-              <option value="pi">Piauí</option> 
-              <option value="rj">Rio de Janeiro</option> 
-              <option value="rn">Rio Grande do Norte</option> 
-              <option value="ro">Rondônia</option> 
-              <option value="rs">Rio Grande do Sul</option> 
-              <option value="rr">Roraima</option> 
-              <option value="sc">Santa Catarina</option> 
-              <option value="se">Sergipe</option> 
-              <option value="sp">São Paulo</option> 
-              <option value="to">Tocantins</option> 
-            </select>
-            </div>
-            <div class="separator"><label for="telefone">Telefone:</label>
-              <input type="text"id="telefone" name="telefone" class="input-telefone"
-              placeholder="Ex.: (12)1234-5678" data-mask="(00)0000-0000" maxlength="13" autocomplete="off">
-              <label for="celular">Celular:</label>
-              <input type="text" id="celular" name:="celular" class="input-celular" placeholder="Ex.: (12)91234-5678" data-mask="(00)00000-0000" maxlength="14" autocomplete="off">
-              </div>
-              <div class="separator"><label for="email">Email:</label>
+                <option value="sjc">0001-São José dos Campos</option>
+                <option value="jacarei">0002-Jacareí</option>
+                <option value="ipeúna">0003-Ipeúna</option>
+                <option value="curitiba">0004-Curitiba</option>
+                </select> 
+                <label for="cargo">Cargo:</label>
+                <select id="cargos" class="select-cargos">
+                <option value="selecione" selected>Selecione uma opção</option>
+                <option value="administrador">Administrador</option>
+                <option value="entregador">Entregador</option>
+                <option value="motorista">Motorista</option>
+                <option value="supervisor">Surpervisor</option>
+                </select>
+                </div>
+                <div class="separator"><label for="email">Email:</label>
                 <input type="email"id="email" name="email" class="input-email" placeholder="Ex.: joão-motorista@entregasrapidas.com">
-              </div>
-              <div class="separator"><label for="login">Login:</label>
+                </div>
+                <div class="separator"><label for="login">Login:</label>
                 <input type="text"id="login" name="login" class="input-login" placeholder="Crie um login">
                 <label for="senha">Senha:</label>
                 <input type="password"id="senha" name="senha" class="input-senha" placeholder="Crie uma senha de 8 caracteres" maxlength="8" autocomplete="off">
-              </div>
-
-          </form>
+                </div>
+                
+            </form>
           <a class="btn-cadastrar" href="index-funcionario.html">Cadastrar Funcionário</a>
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      $("#cep").focusout(function(){
+        //Início do Comando AJAX
+        $.ajax({
+          //O campo URL diz o caminho de onde virá os dados
+          //É importante concatenar o valor digitado no CEP
+          url: 'https://viacep.com.br/ws/'+$(this).val()+'/json/unicode/',
+          //Aqui você deve preencher o tipo de dados que será lido,
+          //no caso, estamos lendo JSON.
+          dataType: 'json',
+          //SUCESS é referente a função que será executada caso
+          //ele consiga ler a fonte de dados com sucesso.
+          //O parâmetro dentro da função se refere ao nome da variável
+          //que você vai dar para ler esse objeto.
+          success: function(resposta){
+            //Agora basta definir os valores que você deseja preencher
+            //automaticamente nos campos acima.
+            $("#logradouro").val(resposta.logradouro);
+            $("#complemento").val(resposta.complemento);
+            $("#bairro").val(resposta.bairro);
+            $("#cidade").val(resposta.localidade);
+            $("#uf").val(resposta.uf);
+            //Vamos incluir para que o Número seja focado automaticamente
+            //melhorando a experiência do usuário
+            $("#numero").focus();
+          }
+        });
+      });
+    </script>
   </body>
 </html>
