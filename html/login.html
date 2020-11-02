@@ -3,30 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style/reset.css">
   <link rel="stylesheet" href="../style/login.css">
-  <title>Entregas Rápidas by iTruck Solutions</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Entregas Rápidas by iTruck</title>
 </head>
 <body>
-  <header class="header-login">
-    <img src="../img/logoPI-escuro.png" alt="logo iTruck">
-  </header>
-  <main class="main-login">
-    <div class="login-title"><h1>LOGIN</h1></div>
-    <div>
-      <form action="#">
-        <div><label for="login">Login:</label>
-        <input type="text" id="login" name="login"></div>
-        <div><label for="password">Senha:</label>
-        <input type="password" id="password" name="password"></div>
-        <button><a href="pagina-inicial.html">Entrar</a></button>
+    <div class="loginBox">
+      <div class="glass">
+        <img src="../img/logoPI-escuro.png" class="user" alt="">
+        <h3>Login</h3>
+        <form>
+          <div class="inputBox">
+            <input type="text" name="login" placeholder="Login">
+            <span>
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="inputBox">
+            <input type="password" name="password" placeholder="Senha">
+            <span>
+              <i class="fa fa-lock" aria-hidden="true"></i>
+            </span>
+          </div>
+            <input type="submit" name="" value="Entrar">
         </form>
+        <a href="#">Esqueci minha Senha</a>
+      </div>
     </div>
-  </main>
-  <footer>
-    <div>
-      <p>Alguns direitos reservados - iTruck - Projeto integrador 2 ADS 2020b - Fatec SJC</p>
-    </div>
-  </footer>
 </body>
 </html>
