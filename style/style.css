@@ -229,7 +229,37 @@ input, select {
   margin-left: 45px;
 }
 
-.ultima-parada{
+.contratempo{
+  margin-bottom: 50px;
+  width: 516px;
+}
+.estado, .sigla{
+  width: 250px;
+  margin-top: 40px;
+}
+.regiao-estado, .horaExtra-estado{
+  width: 200px;
   margin-bottom: 50px;
 }
 
+.marca-veiculo, .modelo-veiculo{
+  width: 220px;
+  margin-top: 40px;
+}
+
+.ano-veiculo{
+  margin-left: 45px;
+}
+
+.ano-veiculo, .cor-veiculo{
+  width: 234px;
+}
+
+.placa-veiculo {
+  margin-left: 34px;
+}
+
+.placa-veiculo, .estado-veiculo{
+  width: 228px;
+  margin-bottom: 50px;
+}
