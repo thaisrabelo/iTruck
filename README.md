@@ -85,6 +85,12 @@
         </section>
         <section>
             <p><h2 id="funcionalidades">Funcionalidades :wrench: </h2></p>
+            <p><img src="https://img.shields.io/badge/Cadastrar%20Funcion%C3%A1rio-PRONTO-success">  <img src="https://img.shields.io/badge/Visualizar%20Funcion%C3%A1rio-PRONTO-success">  <img src="https://img.shields.io/badge/Atualizar%20Funcion%C3%A1rio-PRONTO-success">  <img src="https://img.shields.io/badge/Deletar%20Funcion%C3%A1rio-PRONTO-success"></p>
+            <p><img src="https://img.shields.io/badge/Cadastrar%20Ve%C3%ADculo-PRONTO-success">  <img src="https://img.shields.io/badge/Visualizar%20Ve%C3%ADculo-PRONTO-success">  <img src="https://img.shields.io/badge/Atualizar%20Ve%C3%ADculo-PRONTO-success">  <img src="https://img.shields.io/badge/Deletar%20Ve%C3%ADculo-PRONTO-success"></p>
+            <p><img src="https://img.shields.io/badge/Cadastrar%20Filial-PRONTO-success">  <img src="https://img.shields.io/badge/Visualzar%20Filial-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Atualizar%20Filial-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Deletar%20Filial-EM ANDAMENTO-yellow"></p>
+            <p><img src="https://img.shields.io/badge/Cadastrar%20Estado-PRONTO-success">  <img src="https://img.shields.io/badge/Visualzar%20Estado-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Atualizar%20Estado-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Deletar%20Estado-EM ANDAMENTO-yellow"></p>
+            <p><img src="https://img.shields.io/badge/Cadastrar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Visualzar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Atualizar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Deletar%20Jornada-EM ANDAMENTO-yellow"></p>
+             <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
 </nav>
 </body>
