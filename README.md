@@ -13,10 +13,11 @@
             <li><a href="#etapas">Etapas de desenvolvimento</a></li>
             <li><a href="#funcionalidades">Funcionalidades</a></li>
             <li><a href="#tecnologias">Tecnologias utilizadas</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#">Cards das Sprints do sistema</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#">Nosso Progresso</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#">Wireframes do iTruck</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#">Documentação</a></li>
+            <li><a href="#cards">Cards das Sprints do sistema</a></li>
+            <li><a href="#user_story">User Stories por Sprint</a></li>
+            <li><a href="#progresso">Nosso Progresso</a></li>
+            <li><a href="#wireframes">Wireframes do iTruck</a></li>
+            <li><a href="#documentacao">Documentação</a></li>
         </ul>
     </nav>
         <section>
@@ -98,7 +99,21 @@
             <p><img src="https://img.shields.io/badge/prototipação-Figma-ff69b4">  <img src="https://img.shields.io/badge/tecnologias-GitHub-lightblue"> <img src="https://img.shields.io/badge/tecnologias-Microsoft%20Teams-blue"></p>
             <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
-</nav>
+            <section>
+            <p><h2 id="cards">Cards das Sprints :bookmark: </h2></p>
+            </section>
+            <section>
+            <p><h2 id="user_story"> User Stories por Sprint :runner: </h2></p>
+            </section>
+            <section>
+            <p><h2 id="progresso">Nosso Progresso :tada: :confetti_ball:</h2></p>
+            </section>
+</nav><section>
+            <p><h2 id="wireframes">Wireframes do iTruck :city_sunrise::city_sunset:</h2></p>
+            </section>
+            <section>
+            <p><h2 id="documentacao">Documentação :open_file_folder:</h2></p>
+            </section>
 </body>
 
 
