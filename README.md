@@ -24,11 +24,15 @@
             <p align="justify">Projeto Integrador é um projeto no qual nós alunos trabalhamos em conjunto com um cliente. Neste ano, o cliente é a empresa IACIT. Nos foi solicitado um sistema para o gerenciamento e controle da jornada de trabalho de motoristas que seja parametrizável visando à disponibilização de funcionalidades de planejamento, acompanhamento, controlando a jornada de trabalho de cada um desses colaboradores. Nosso sistema deverá oferecer um cadastro de funcionário de vários níveis de acesso, um cadastro para os dados do veículo, um cadastro para dados de filiais, um cadastro para dados de região e um cadastro para dados da jornada dos motorista. </p>
             <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
-        <section id="sobre-itruck"></section>
+        <section>
+            <p><h2 id="sobre-itruck">Sobre o iTruck</h2></p>
+            <p align="justify">O iTruck foi idealizado pelos integrantes seguindo um padrão de nomes do projeto integrador do semestre passado, o qual fizemos o <a href="https://github.com/MatheusCoxxxta/ipet-app">iPet</a>. Mesmo sem todos os integrantes, achamos a idéia genial e decidimos levar pra frente. Hoje com equipe reduzida, buscamos performar da melhor maneira possível e entregar resultados de qualidade para nosso cliente IACIT</p>
+        </section>
         <section><p><h2 id="disciplinas">Disciplinas Envolvidas</h2></p>
             <p><img src="https://img.shields.io/badge/Engenharia%20de%20Software%20I-Prof%C2%AA%20Ma.%20Juliana%20Forin%20Pasquini%20Martinez-blueviolet"></p>
             <p><img src="https://img.shields.io/badge/Sistemas%20de%20Informa%C3%A7%C3%A3o-Prof%C2%BA%20Me.%20Claudio%20Etelvino%20de%20LimaiI-blueviolet"></p>
             <p><img src="https://img.shields.io/badge/Linguagem%20de%20Programa%C3%A7%C3%A3o-Prof%C2%BA%20Me.%20Reinaldo%20Gen%20Ichiro%20ArakakiI-blueviolet"></p>
+            <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
 </nav>
 </body>
