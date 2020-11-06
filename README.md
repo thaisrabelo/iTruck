@@ -46,7 +46,7 @@
         </section>
         <section>
             <p><h2 id="etapas">Etapas de Desenvolvimento :computer: </h1></p>
-            <p align="justify">Para desenvolvimento do projeto, utilizamos a metodologia scrum, que consiste em dividir o projeto em etapas chamadas sprints. Cada sprint varia sua duração entre 2 e 3 semanas e durante cada sprint são feitas reuniões semanais de verificação de andamento do projeto. Ao final de cada sprint, nós mostramos o andamento do projeto ao cliente. Essa metodologia foi escolhida por sua facilidade de implementação e pelo fato de que ao dividir, caso o cliente queira uma modificação, nós não precisamos mexer no projeto como um todo. <br><h4>Branches de cada entrega:</h4</p>
+            <p align="justify">Para desenvolvimento do projeto, utilizamos a metodologia scrum, que consiste em dividir o projeto em etapas chamadas sprints. Cada sprint varia sua duração entre 2 e 3 semanas e durante cada sprint são feitas reuniões semanais de verificação de andamento do projeto. Ao final de cada sprint, nós mostramos o andamento do projeto ao cliente. Essa metodologia foi escolhida por sua facilidade de implementação e pelo fato de que ao dividir, caso o cliente queira uma modificação, nós não precisamos mexer no projeto como um todo. <br><h4>Branches de cada entrega:</h4></p>
     <table>
               <thead>
                      <th width=100px>Entregas</th>
@@ -56,7 +56,7 @@
               </thead>
               <tbody>
                      <tr>
-                         <td><p>Sprint 00</p></td>
+                         <td>Sprint 00</td>
                             <td>Entrega de Documentação: wireframes, backlog, planejamento de entrevista, modelo conceitual e lógico do banco de dados e User Stories</td>
                             <td>07/09/2020 a 27/09/2020</td>
                             <td><a href="https://github.com/thaisrabelo/iTruck/tree/sprint00">Visualizar</td>
@@ -69,7 +69,7 @@
                      </tr>
                      <tr>
                             <td>Sprint 02</td>
-                            <td>CRUD completo de Funcionários e Veículos</td>
+                            <td> Consulta Funcionário. Alterar Funcionário, Excluir Funcionário, Consulta Veículo, Alterar Veiculo e Excluir Veículo</td>
                             <td>19/10/2020 a 08/11/2020</td>
                             <td><a href="https://github.com/thaisrabelo/iTruck/tree/sprint02">Visualizar</a></td>
                      </tr>
@@ -82,6 +82,10 @@
               </tbody>
        </table>
     <p><a href="#topo">Voltar ao Topo</a></p>
+        </section>
+        <section>
+            <p><h2 id="funcionalidades">Funcionalidades</h2></p>
+            
         </section>
 </nav>
 </body>
