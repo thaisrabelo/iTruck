@@ -2,14 +2,14 @@
     <nav>
         <p><img src="https://img.shields.io/badge/S%20T%20A%20T%20U%20S%20D%20O%20P%20R%20O%20J%20E%20T%20O-EM%20PROGRESSO-blueviolet"></p>
         <p><img src="https://img.shields.io/badge/S%20P%20R%20I%20N%20T%20A%20T%20U%20A%20L-SPRINT%2002-blue"></p>
-        <p id="topo"><h1>iTruck :truck::computer:</h1></p>
+        <p id="topo"><h1>iTruck :articulated_lorry: :computer:</h1></p>
         <p>Seja bem vindo ao repositório do iTrcuk!</p>
         <p><h3>Índice</h3></p>
         <ul>
             <li><a href="#proposta">A proposta do projeto</a></li>
             <li><a href="#sobre-itruck">O que é o iTruck?</a></li>
             <li><a href="#disciplinas">Displinas Envolvidas</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#">Integrantes da equipe</a></li>
+            <li><a href="#integrantes">Integrantes da equipe</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Etapas de desenvolvimento</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Funcionalidades</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Tecnologias utilizadas</a></li>
@@ -26,7 +26,8 @@
         </section>
         <section>
             <p><h2 id="sobre-itruck">Sobre o iTruck</h2></p>
-            <p align="justify">O iTruck foi idealizado pelos integrantes seguindo um padrão de nomes do projeto integrador do semestre passado, o qual fizemos o <a href="https://github.com/MatheusCoxxxta/ipet-app">iPet</a>. Mesmo sem todos os integrantes, achamos a idéia genial e decidimos levar pra frente. Hoje com equipe reduzida, buscamos performar da melhor maneira possível e entregar resultados de qualidade para nosso cliente IACIT</p>
+            <p align="justify">O iTruck foi idealizado pelos integrantes seguindo um padrão de nomes do projeto integrador do semestre passado, o qual fizemos o <a href="https://github.com/MatheusCoxxxta/ipet-app">iPet</a>. Mesmo sem todos os integrantes, achamos a idéia genial e decidimos levar adiante. Hoje com equipe reduzida, buscamos performar da melhor maneira possível e entregar resultados de qualidade para nosso cliente IACIT.</p>
+            <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
         <section><p><h2 id="disciplinas">Disciplinas Envolvidas</h2></p>
             <p><img src="https://img.shields.io/badge/Engenharia%20de%20Software%20I-Prof%C2%AA%20Ma.%20Juliana%20Forin%20Pasquini%20Martinez-blueviolet"></p>
@@ -34,6 +35,7 @@
             <p><img src="https://img.shields.io/badge/Linguagem%20de%20Programa%C3%A7%C3%A3o-Prof%C2%BA%20Me.%20Reinaldo%20Gen%20Ichiro%20ArakakiI-blueviolet"></p>
             <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
+        <section><p><h2 id="integrantes">Integrantes da Equipe :dancers:</h2></p>
 </nav>
 </body>
 
