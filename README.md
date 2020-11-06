@@ -56,7 +56,7 @@
               </thead>
               <tbody>
                      <tr>
-                            <td>Sprint 00</td>
+                         <td><p>Sprint 00</p></td>
                             <td>Entrega de Documentação: wireframes, backlog, planejamento de entrevista, modelo conceitual e lógico do banco de dados e User Stories</td>
                             <td>07/09/2020 a 27/09/2020</td>
                             <td><a href="https://github.com/thaisrabelo/iTruck/tree/sprint00">Visualizar</td>
