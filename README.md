@@ -22,7 +22,7 @@
         <section>
             <p><h2 id="proposta">A proposta do projeto</h2></p>
             <p align="justify">Projeto Integrador é um projeto no qual nós alunos trabalhamos em conjunto com um cliente. Neste ano, o cliente é a empresa IACIT. Nos foi solicitado um sistema para o gerenciamento e controle da jornada de trabalho de motoristas que seja parametrizável visando à disponibilização de funcionalidades de planejamento, acompanhamento, controlando a jornada de trabalho de cada um desses colaboradores. Nosso sistema deverá oferecer um cadastro de funcionário de vários níveis de acesso, um cadastro para os dados do veículo, um cadastro para dados de filiais, um cadastro para dados de região e um cadastro para dados da jornada dos motorista. </p>
-            <p>a href="#topo">Voltar ao Topo</a></p>
+            <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
         <section id="sobre-itruck"></section>
         <section><p><h2 id="disciplinas">Disciplinas Envolvidas</h2></p>
