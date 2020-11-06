@@ -101,6 +101,7 @@
             </section>
             <section>
             <p><h2 id="cards">Cards das Sprints :bookmark: </h2></p>
+            <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
             <section>
             <p><h2 id="user_story"> User Stories por Sprint :runner: </h2></p>
@@ -113,15 +114,44 @@
             <img src="./src/img/userstories/07.png" width=250px height=250px>
             <img src="./src/img/userstories/09.png" width=250px height=250px>
             <img src="./src/img/userstories/10.png" width=250px height=250px></p>
+            <br>
+            <p><h3> Sprint 02 </h3></p>
+            <p><img src="./src/img/userstories/11.png" width=250px height=250px>
+            <img src="./src/img/userstories/12.png" width=250px height=250px>
+            <img src="./src/img/userstories/13.png" width=250px height=250px>
+            <img src="./src/img/userstories/16.png" width=250px height=250px>
+            <img src="./src/img/userstories/17.png" width=250px height=250px>
+            <img src="./src/img/userstories/18.png" width=250px height=250px>
+            <img src="./src/img/userstories/19.png" width=250px height=250px>
+            <img src="./src/img/userstories/25.png" width=250px height=250px>
+            <img src="./src/img/userstories/26.png" width=250px height=250px>
+            <img src="./src/img/userstories/27.png" width=250px height=250px>
+            <img src="./src/img/userstories/28.png" width=250px height=250px>
+            <img src="./src/img/userstories/30.png" width=250px height=250px>
+            <img src="./src/img/userstories/31.png" width=250px height=250px>
+            <img src="./src/img/userstories/32.png" width=250px height=250px>
+            <img src="./src/img/userstories/33.png" width=250px height=250px>
+            <img src="./src/img/userstories/34.png" width=250px height=250px>
+            <img src="./src/img/userstories/38.png" width=250px height=250px>
+            <img src="./src/img/userstories/39.png" width=250px height=250px>
+            <img src="./src/img/userstories/40.png" width=250px height=250px>
+            <img src="./src/img/userstories/41.png" width=250px height=250px>
+            <img src="./src/img/userstories/42.png" width=250px height=250px>
+            <img src="./src/img/userstories/43.png" width=250px height=250px>
+            <img src="./src/img/userstories/47.png" width=250px height=250px></p>
+            <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
             <section>
             <p><h2 id="progresso">Nosso Progresso :tada: :confetti_ball:</h2></p>
+            <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
-</nav><section>
+            <section>
             <p><h2 id="wireframes">Wireframes do iTruck :city_sunrise::city_sunset:</h2></p>
+            <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
             <section>
             <p><h2 id="documentacao">Documentação :open_file_folder:</h2></p>
+            <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
 </body>
 
