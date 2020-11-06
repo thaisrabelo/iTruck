@@ -104,6 +104,15 @@
             </section>
             <section>
             <p><h2 id="user_story"> User Stories por Sprint :runner: </h2></p>
+            <p><h3> Sprint 01 </h3></p>
+            <p><img src="./src/img/userstories/01.png" width=250px height=250px>
+            <img src="./src/img/userstories/02.png" width=250px height=250px>
+            <img src="./src/img/userstories/03.png" width=250px height=250px>
+            <img src="./src/img/userstories/04.png" width=250px height=250px>
+            <img src="./src/img/userstories/06.png" width=250px height=250px>
+            <img src="./src/img/userstories/07.png" width=250px height=250px>
+            <img src="./src/img/userstories/09.png" width=250px height=250px>
+            <img src="./src/img/userstories/10.png" width=250px height=250px></p>
             </section>
             <section>
             <p><h2 id="progresso">Nosso Progresso :tada: :confetti_ball:</h2></p>
