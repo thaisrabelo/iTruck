@@ -6,9 +6,9 @@
         <p>Seja bem vindo ao repositório do iTrcuk!</p>
         <p><h3>Índice</h3></p>
         <ul>
-            <li><a href="https://github.com/thaisrabelo/iTruck#proposta">A proposta do projeto</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#sobre-itruck">O que é o iTruck?</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#disciplinas">Displinas Envolvidas</a></li>
+            <li><a href="#proposta">A proposta do projeto</a></li>
+            <li><a href="#sobre-itruck">O que é o iTruck?</a></li>
+            <li><a href="#disciplinas">Displinas Envolvidas</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Integrantes da equipe</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Etapas de desenvolvimento</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Tecnologias utilizadas</a></li>
