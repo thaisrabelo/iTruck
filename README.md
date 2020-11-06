@@ -11,8 +11,8 @@
             <li><a href="#disciplinas">Displinas Envolvidas</a></li>
             <li><a href="#integrantes">Integrantes da equipe</a></li>
             <li><a href="#etapas">Etapas de desenvolvimento</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#">Funcionalidades</a></li>
-            <li><a href="https://github.com/thaisrabelo/iTruck#">Tecnologias utilizadas</a></li>
+            <li><a href="#funcionalidades">Funcionalidades</a></li>
+            <li><a href="#tecnologias">Tecnologias utilizadas</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Cards das Sprints do sistema</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Nosso Progresso</a></li>
             <li><a href="https://github.com/thaisrabelo/iTruck#">Wireframes do iTruck</a></li>
@@ -92,6 +92,8 @@
             <p><img src="https://img.shields.io/badge/Cadastrar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Visualzar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Atualizar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Deletar%20Jornada-EM ANDAMENTO-yellow"></p>
              <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
+        <section>
+            <p><h2 id="funcionalidades">Funcionalidades :wrench: </h2></p>
 </nav>
 </body>
 
