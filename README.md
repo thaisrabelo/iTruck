@@ -84,8 +84,7 @@
     <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
         <section>
-            <p><h2 id="funcionalidades">Funcionalidades</h2></p>
-            
+            <p><h2 id="funcionalidades">Funcionalidades :wrench: </h2></p>
         </section>
 </nav>
 </body>
