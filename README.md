@@ -9,8 +9,19 @@
             <p><h2>Disciplinas Envolvidas</h2></p>
             <p><img src="https://img.shields.io/badge/ENG.%20DE%20SOFTWARE-Prof.%20Ma.%20Juliana-blueviolet"></p>
             <p><img src="https://img.shields.io/badge/SISTEMAS%20DE%20INFORMA%C3%87%C3%83O-Prof.%20Me.%20Claudio-blueviolet"></p>
-            <p><img src="https://img.shields.io/badge/%20LINGUAGEM%20DE%20PROGRAMA%C3%87%C3%83O-%20Prof%C2%AA.%20Me.%20Reinaldo%20-blueviolet"></p>
-       </nav>
+            <p><img src="https://img.shields.io/badge/%20LINGUAGEM%20DE%20PROGRAMA%C3%87%C3%83O-%20Prof%C2%AA.%20Me.%20Reinaldo%20-blueviolet"></p
+
+<ul>
+    <li><a href="https://github.com/thaisrabelo/iTruck#">O que é o iTruck?</a></li>
+    <li><a href="https://github.com/thaisrabelo/iTruck#">Integrantes da equipe</a></li>
+    <li><a href="https://github.com/thaisrabelo/iTruck#">Etapas de desenvolvimento</a></li>
+    <li><a href="https://github.com/thaisrabelo/iTruck#">Tecnologias utilizadas</a></li>
+    <li><a href="https://github.com/thaisrabelo/iTruck#">Cards das Sprints do sistema</a></li>
+    <li><a href="https://github.com/thaisrabelo/iTruck#">Nosso Progresso</a></li>
+    <li><a href="https://github.com/thaisrabelo/iTruck#">Wireframes do iTruck</a></li>
+    <li><a href="https://github.com/thaisrabelo/iTruck#">Documentação</a></li>
+</ul>
+</nav>
 </body>
 
 
