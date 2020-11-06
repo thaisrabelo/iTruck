@@ -56,7 +56,7 @@
               </thead>
               <tbody>
                      <tr>
-                            <td>Sprint 00/td>
+                            <td>Sprint 00</td>
                             <td>Entrega de Documentação: wireframes, backlog, planejamento de entrevista, modelo conceitual e lógico do banco de dados e User Stories</td>
                             <td>07/09/2020 a 27/09/2020</td>
                             <td><a href="https://github.com/thaisrabelo/iTruck/tree/sprint00">Visualizar</td>
@@ -65,22 +65,23 @@
                             <td>Sprint 01</td>
                             <td>Cadastro Veículo, Cadastro Filial, Cadastro Região e Cadastro Funcionário.</td>
                             <td>28/09/2020 a 18/10/2020</td>
-                            <td><a href="#">Visualizar</td>
+                            <td><a href="https://github.com/thaisrabelo/iTruck/tree/sprint01">Visualizar</td>
                      </tr>
                      <tr>
                             <td>Sprint 02</td>
                             <td>CRUD completo de Funcionários e Veículos</td>
                             <td>19/10/2020 a 08/11/2020</td>
-                            <td><a href="#">Visualizar</a></td>
+                            <td><a href="https://github.com/thaisrabelo/iTruck/tree/sprint02">Visualizar</a></td>
                      </tr>
                       <tr>
                             <td>Sprint 03</td>
-                            <td>O supervisor poderá visualizar e alterar dados dos veículos e viagens. Todos os usuários poderão recuperar suas senhas.</td>
+                            <td>A combinar com a empresa.</td>
                             <td>09/11/2020 a 29/11/2020</td>
-                            <td>Programando..../td>
+                            <td>Programando...</td>
                      </tr>
               </tbody>
        </table>
+    <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
 </nav>
 </body>
