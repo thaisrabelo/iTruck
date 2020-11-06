@@ -114,7 +114,7 @@
             <img src="./src/img/userstories/07.png" width=250px height=250px>
             <img src="./src/img/userstories/09.png" width=250px height=250px>
             <img src="./src/img/userstories/10.png" width=250px height=250px></p>
-            <br>
+            <p text-align=right><a href="#topo">Voltar ao Topo</a></p>
             <p><h3> Sprint 02 </h3></p>
             <p><img src="./src/img/userstories/11.png" width=250px height=250px>
             <img src="./src/img/userstories/12.png" width=250px height=250px>
