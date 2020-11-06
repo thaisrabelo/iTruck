@@ -93,7 +93,9 @@
              <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
         <section>
-            <p><h2 id="funcionalidades">Funcionalidades :wrench: </h2></p>
+            <p><h2 id="tecnologias">Tecnologias :rocket: </h2></p>
+            <p><img src="https://img.shields.io/badge/tecnologias-Java%20JDK%208-orange">  <img src="https://img.shields.io/badge/tecnologias-Java%20JRE-orange"> <img src="https://img.shields.io/badge/tecnologias-PostgreSQL%20JDBC%3A%2042.2.16-orange"></p>
+            <p><img src="https://img.shields.io/badge/prototipação-Figma-ff69b4">  <img src="https://img.shields.io/badge/tecnologias-Java%20JRE-orange"> <img src="https://img.shields.io/badge/tecnologias-PostgreSQL%20JDBC%3A%2042.2.16-orange"></p>
 </nav>
 </body>
 
