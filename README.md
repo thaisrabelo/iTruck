@@ -95,7 +95,7 @@
         <section>
             <p><h2 id="tecnologias">Tecnologias :rocket: </h2></p>
             <p><img src="https://img.shields.io/badge/tecnologias-Java%20JDK%208-orange">  <img src="https://img.shields.io/badge/tecnologias-Java%20JRE-orange"> <img src="https://img.shields.io/badge/tecnologias-PostgreSQL%20JDBC%3A%2042.2.16-orange"></p>
-            <p><img src="https://img.shields.io/badge/prototipação-Figma-ff69b4">  <img src="https://img.shields.io/badge/tecnologias-Java%20JRE-orange"> <img src="https://img.shields.io/badge/tecnologias-PostgreSQL%20JDBC%3A%2042.2.16-orange"></p>
+            <p><img src="https://img.shields.io/badge/prototipação-Figma-ff69b4">  <img src="https://img.shields.io/badge/tecnologias-GitHub-lightblue"> <img src="https://img.shields.io/badge/tecnologias-Microsoft%20Teams-blue"></p>
 </nav>
 </body>
 
