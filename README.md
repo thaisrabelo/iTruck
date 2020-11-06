@@ -47,6 +47,40 @@
         <section>
             <p><h2 id="etapas">Etapas de Desenvolvimento :computer: </h1></p>
             <p align="justify">Para desenvolvimento do projeto, utilizamos a metodologia scrum, que consiste em dividir o projeto em etapas chamadas sprints. Cada sprint varia sua duração entre 2 e 3 semanas e durante cada sprint são feitas reuniões semanais de verificação de andamento do projeto. Ao final de cada sprint, nós mostramos o andamento do projeto ao cliente. Essa metodologia foi escolhida por sua facilidade de implementação e pelo fato de que ao dividir, caso o cliente queira uma modificação, nós não precisamos mexer no projeto como um todo. <br><h4>Branches de cada entrega:</h4</p>
+    <table>
+              <thead>
+                     <th width=100px>Entregas</th>
+                     <th>Descrições</th>
+                     <th width=215px>Datas</th>
+                     <th>Links</th>
+              </thead>
+              <tbody>
+                     <tr>
+                            <td>Sprint 00/td>
+                            <td>Entrega de Documentação: wireframes, backlog, planejamento de entrevista, modelo conceitual e lógico do banco de dados e User Stories</td>
+                            <td>07/09/2020 a 27/09/2020</td>
+                            <td><a href="https://github.com/thaisrabelo/iTruck/tree/sprint00">Visualizar</td>
+                     </tr>
+                     <tr>
+                            <td>Sprint 01</td>
+                            <td>Cadastro Veículo, Cadastro Filial, Cadastro Região e Cadastro Funcionário.</td>
+                            <td>28/09/2020 a 18/10/2020</td>
+                            <td><a href="#">Visualizar</td>
+                     </tr>
+                     <tr>
+                            <td>Sprint 02</td>
+                            <td>CRUD completo de Funcionários e Veículos</td>
+                            <td>19/10/2020 a 08/11/2020</td>
+                            <td><a href="#">Visualizar</a></td>
+                     </tr>
+                      <tr>
+                            <td>Sprint 03</td>
+                            <td>O supervisor poderá visualizar e alterar dados dos veículos e viagens. Todos os usuários poderão recuperar suas senhas.</td>
+                            <td>09/11/2020 a 29/11/2020</td>
+                            <td>Programando..../td>
+                     </tr>
+              </tbody>
+       </table>
         </section>
 </nav>
 </body>
