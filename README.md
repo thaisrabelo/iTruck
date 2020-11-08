@@ -101,6 +101,17 @@
             </section>
             <section>
             <p><h2 id="cards">Cards das Sprints :bookmark: </h2></p>
+            <p><h3>Sprint 01</h3></p>
+            <p>Para essa Sprint ficou acordado com o cliente a entrega da prototipação e documentação do projeto, incluindo modelagem conceitual e física do banco de dados, backlog com priorização de funcionalidade e as user stories. Toda a documentação pode ser acessada ao final do README.</p>
+            <p><img src="https://github.com/thaisrabelo/iTruck/blob/main/documentacao/card01.jpeg"></p>
+             <p><a href="#topo">Voltar ao Topo</a></p>
+            <p><h3>Sprint 02</h3></p>
+            <p>Conforme o cliente solicitou, nessa sprint o foco foi a entrega de cadastro de funcionários, veículos, filiais e região. Uma vez que o sistema irá girár em torno dos funcionários e suas jornadas de trabalho, essa entrega se torna de extrema importancia pois envolve o cadastro de peças chave do sistema.</p>
+            <p><img src="https://github.com/thaisrabelo/iTruck/blob/main/documentacao/card02.jpeg"></p>
+             <p><a href="#topo">Voltar ao Topo</a></p>
+            <p><h3>Sprint 03</h3></p>
+            <p>Para essa sprint foi solicitado o CRUD completo de funcionários e Veículos, funcionalidades essas que, uma vez pronta, podem auxiliar na programação das demais, tendo em vista que são os CRUDs chave do sistema.</p>
+            <p><img src="https://github.com/thaisrabelo/iTruck/blob/main/documentacao/card03.jpeg"></p>
             <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
             <section>
