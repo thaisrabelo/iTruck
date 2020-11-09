@@ -2,6 +2,12 @@ package gui;
 
 import modelo.funcionario;
 import dao.funcionarioDAO;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import javax.swing.JOptionPane;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class funcionarioGUI extends javax.swing.JFrame {
 
@@ -11,6 +17,7 @@ public class funcionarioGUI extends javax.swing.JFrame {
     public funcionarioGUI() {
         initComponents();
     }
+    
 
     /**
      * This method is called from within the constructor to initialize the form.

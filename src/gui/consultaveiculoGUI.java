@@ -40,7 +40,7 @@ public class consultaveiculoGUI extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
-        txtModelo = new javax.swing.JTextField();
+        txtMarca = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         btnPesq = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
@@ -106,17 +106,17 @@ public class consultaveiculoGUI extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        txtModelo.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        txtModelo.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 100, 120)));
-        txtModelo.addActionListener(new java.awt.event.ActionListener() {
+        txtMarca.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txtMarca.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 100, 120)));
+        txtMarca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtModeloActionPerformed(evt);
+                txtMarcaActionPerformed(evt);
             }
         });
 
         jLabel2.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 100, 120));
-        jLabel2.setText("Modelo:");
+        jLabel2.setText("Marca:");
 
         btnPesq.setBackground(new java.awt.Color(0, 176, 211));
         btnPesq.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
@@ -167,10 +167,10 @@ public class consultaveiculoGUI extends javax.swing.JFrame {
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 483, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel2)
-                        .addGap(37, 37, 37)
+                        .addGap(45, 45, 45)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(txtModelo, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtMarca, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnPesq, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
@@ -183,7 +183,7 @@ public class consultaveiculoGUI extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtModelo, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtMarca, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2)
                     .addComponent(btnPesq))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -205,9 +205,9 @@ public class consultaveiculoGUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtModeloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtModeloActionPerformed
+    private void txtMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMarcaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtModeloActionPerformed
+    }//GEN-LAST:event_txtMarcaActionPerformed
 
     private void btnPesqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPesqActionPerformed
         // TODO add your handling code here:
@@ -215,11 +215,11 @@ public class consultaveiculoGUI extends javax.swing.JFrame {
             Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/itruck","postgres","camilafatec");
             String sql = "select * from veiculo";
             
-            if(!txtModelo.getText().equals(""))
-                sql = sql + " where modelo_vei LIKE ? ";
+            if(!txtMarca.getText().equals(""))
+                sql = sql + " where marca_vei LIKE ? ";
             PreparedStatement stmt = con.prepareStatement(sql);
-            if(!txtModelo.getText().equals(""))
-                stmt.setString(1, "%"+txtModelo.getText()+"%");
+            if(!txtMarca.getText().equals(""))
+                stmt.setString(1, "%"+txtMarca.getText()+"%");
             ResultSet rs = stmt.executeQuery();            
             DefaultTableModel model = (DefaultTableModel) jtCliente1.getModel();
             model.setNumRows(0);
@@ -284,6 +284,6 @@ public class consultaveiculoGUI extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jtCliente;
     private javax.swing.JTable jtCliente1;
-    private javax.swing.JTextField txtModelo;
+    private javax.swing.JTextField txtMarca;
     // End of variables declaration//GEN-END:variables
 }
