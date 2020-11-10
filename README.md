@@ -55,7 +55,7 @@
             <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
         <section>
-            <p><h2 id="user_stories"> BurnDown da Sprint :fire: </h2></p>
+            <p><h2 id="burndown"> BurnDown da Sprint :fire: </h2></p>
             <p><h3> Sprint 02 </h3></p>
             <p><img src="./documentacao/burndown02.png">
             <p><a href="#topo">Voltar ao Topo</a></p>
