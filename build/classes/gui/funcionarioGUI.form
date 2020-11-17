@@ -142,7 +142,6 @@
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtNome" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="txtCPF" min="-2" pref="180" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -164,6 +163,7 @@
                                   <Component id="txtCodFilial" min="-2" pref="172" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
+                              <Component id="txtNome" alignment="0" pref="394" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -243,7 +243,7 @@
                       <Component id="txtEmail" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
                       <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                           <Component id="txtLogin" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
