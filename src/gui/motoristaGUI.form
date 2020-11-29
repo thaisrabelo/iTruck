@@ -8,11 +8,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel18">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\kiabi\Desktop\logo.png"/>
-        </Property>
-      </Properties>
     </Component>
   </NonVisualComponents>
   <Properties>
@@ -666,11 +661,6 @@
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel16">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\kiabi\Desktop\logo.png"/>
-            </Property>
-          </Properties>
         </Component>
       </SubComponents>
     </Container>

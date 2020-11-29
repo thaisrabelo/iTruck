@@ -203,8 +203,8 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="txtLogin" alignment="0" min="-2" pref="22" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="txtSenha" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
                                   <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtSenha" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -620,20 +620,6 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JPasswordField" name="txtSenha">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Verdana" size="12" style="0"/>
-            </Property>
-            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                <LineBorder>
-                  <Color PropertyName="color" blue="78" green="64" red="0" type="rgb"/>
-                </LineBorder>
-              </Border>
-            </Property>
-          </Properties>
-        </Component>
         <Component class="javax.swing.JButton" name="btnBuscar">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -719,6 +705,20 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAtualizarActionPerformed"/>
           </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSenha">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Verdana" size="12" style="0"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder>
+                  <Color PropertyName="color" blue="78" green="64" red="0" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </Property>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>

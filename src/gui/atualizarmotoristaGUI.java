@@ -108,13 +108,13 @@ public class atualizarmotoristaGUI extends javax.swing.JFrame {
         lblMensagem = new java.awt.Label();
         jPanel1 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
-        txtSenha = new javax.swing.JPasswordField();
         btnBuscar = new javax.swing.JButton();
         jLabel16 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         txtPesq = new javax.swing.JTextField();
         btnPesq = new javax.swing.JButton();
         btnAtualizar = new javax.swing.JButton();
+        txtSenha = new javax.swing.JTextField();
 
         jButton1.setText("jButton1");
 
@@ -268,9 +268,6 @@ public class atualizarmotoristaGUI extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        txtSenha.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        txtSenha.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 100, 120)));
-
         btnBuscar.setBackground(new java.awt.Color(0, 176, 211));
         btnBuscar.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
         btnBuscar.setForeground(new java.awt.Color(0, 105, 120));
@@ -315,6 +312,9 @@ public class atualizarmotoristaGUI extends javax.swing.JFrame {
             }
         });
 
+        txtSenha.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txtSenha.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 100, 120)));
+
         javax.swing.GroupLayout PainelLayout = new javax.swing.GroupLayout(Painel);
         Painel.setLayout(PainelLayout);
         PainelLayout.setHorizontalGroup(
@@ -336,51 +336,48 @@ public class atualizarmotoristaGUI extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(lblMensagem, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(PainelLayout.createSequentialGroup()
-                                .addGroup(PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PainelLayout.createSequentialGroup()
+                                .addComponent(txtLogin)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel15)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(txtEmail, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelLayout.createSequentialGroup()
+                                    .addComponent(txtCEP, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(31, 31, 31)
+                                    .addComponent(jLabel7)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(txtNum, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelLayout.createSequentialGroup()
+                                    .addComponent(txtTelefone, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(jLabel12)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(txtCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(PainelLayout.createSequentialGroup()
-                                        .addComponent(txtLogin)
+                                        .addComponent(txtCPF, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel15)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(txtEmail, javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelLayout.createSequentialGroup()
-                                            .addComponent(txtCEP, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                            .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGap(31, 31, 31)
-                                            .addComponent(jLabel7)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(txtNum, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelLayout.createSequentialGroup()
-                                            .addComponent(txtTelefone, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                            .addComponent(jLabel12)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(txtCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addGroup(PainelLayout.createSequentialGroup()
-                                                .addComponent(txtCPF, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(jLabel3)
-                                                .addGap(10, 10, 10)
-                                                .addComponent(txtRG, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                .addGroup(PainelLayout.createSequentialGroup()
-                                                    .addComponent(txtPesq, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(btnPesq, javax.swing.GroupLayout.DEFAULT_SIZE, 182, Short.MAX_VALUE))
-                                                .addComponent(txtNome, javax.swing.GroupLayout.Alignment.LEADING)))
+                                        .addComponent(jLabel3)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(txtRG, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                         .addGroup(PainelLayout.createSequentialGroup()
-                                            .addComponent(txtEstado, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                            .addComponent(jLabel9)
-                                            .addGap(9, 9, 9)
-                                            .addComponent(txtCidade, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addComponent(txtEndereco, javax.swing.GroupLayout.Alignment.LEADING)))
-                                .addGap(0, 0, Short.MAX_VALUE))))
+                                            .addComponent(txtPesq, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(btnPesq, javax.swing.GroupLayout.DEFAULT_SIZE, 182, Short.MAX_VALUE))
+                                        .addComponent(txtNome, javax.swing.GroupLayout.Alignment.LEADING)))
+                                .addGroup(PainelLayout.createSequentialGroup()
+                                    .addComponent(txtEstado, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(jLabel9)
+                                    .addGap(9, 9, 9)
+                                    .addComponent(txtCidade, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(txtEndereco, javax.swing.GroupLayout.Alignment.LEADING))))
                     .addGroup(PainelLayout.createSequentialGroup()
                         .addGap(19, 19, 19)
                         .addComponent(jLabel16)
@@ -440,8 +437,8 @@ public class atualizarmotoristaGUI extends javax.swing.JFrame {
                         .addGroup(PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(PainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel15))))
+                                .addComponent(jLabel15)
+                                .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(PainelLayout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGap(18, 18, 18)
@@ -571,7 +568,7 @@ public class atualizarmotoristaGUI extends javax.swing.JFrame {
             stmt.execute();
             con.close();
             
-            lblMensagem.setText("Funcionário atualizado com SUCESSO!");
+            lblMensagem.setText("Motorista atualizado com SUCESSO!");
             txtNome.setText("");
             txtCPF.setText("");
             txtRG.setText("");
@@ -670,7 +667,7 @@ public class atualizarmotoristaGUI extends javax.swing.JFrame {
     private javax.swing.JTextField txtNum;
     private javax.swing.JTextField txtPesq;
     private javax.swing.JTextField txtRG;
-    private javax.swing.JPasswordField txtSenha;
+    private javax.swing.JTextField txtSenha;
     private javax.swing.JTextField txtTelefone;
     // End of variables declaration//GEN-END:variables
 }

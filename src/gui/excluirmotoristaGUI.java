@@ -7,6 +7,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.swing.JDesktopPane;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
@@ -107,7 +110,7 @@ public class excluirmotoristaGUI extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(106, 106, 106)
+                .addGap(130, 130, 130)
                 .addComponent(jLabel17)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -168,8 +171,6 @@ public class excluirmotoristaGUI extends javax.swing.JFrame {
         jtCliente1.getTableHeader().setReorderingAllowed(false);
         jScrollPane2.setViewportView(jtCliente1);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\kiabi\\Desktop\\logo.png")); // NOI18N
-
         btnExcluir1.setBackground(new java.awt.Color(0, 176, 211));
         btnExcluir1.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
         btnExcluir1.setForeground(new java.awt.Color(0, 105, 120));
@@ -189,18 +190,18 @@ public class excluirmotoristaGUI extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(19, 19, 19)
                         .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGap(26, 26, 26)
                         .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(45, 45, 45)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane2)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 483, Short.MAX_VALUE)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel2)
-                                .addGap(58, 58, 58)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(txtPesq, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnPesq, javax.swing.GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE)))))
+                                .addGap(18, 18, 18)
+                                .addComponent(btnPesq, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                 .addGap(45, 45, 45))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -275,6 +276,7 @@ public class excluirmotoristaGUI extends javax.swing.JFrame {
 
     private void btnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExcluirActionPerformed
         // TODO add your handling code here:
+        
         try{
             Connection con =  DriverManager.getConnection("jdbc:postgresql://localhost:5432/itruck","postgres","camilafatec");
             String sql = "delete from funcionario where id_func = ?";
@@ -293,20 +295,42 @@ public class excluirmotoristaGUI extends javax.swing.JFrame {
 
     private void btnExcluir1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExcluir1ActionPerformed
         // TODO add your handling code here:
+        
+        String DateDATA, DateHORA;
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        Date relogio = new Date();
+        DateDATA = dateFormat.format(relogio);
+        
+        DateFormat dateFormat2 = new SimpleDateFormat("HH:mm:ss");
+        Date relogio2 = new Date();
+        DateHORA = dateFormat2.format(relogio2);
+        
         try{
             Connection con =  DriverManager.getConnection("jdbc:postgresql://localhost:5432/itruck","postgres","camilafatec");
             String sql = "delete from motorista where cpf_mot = ?";
+            String sql2 = "insert into auditoria(data_aud, hora_aud, usu_aud, querry_aud) values (?,?,?,?)";
             PreparedStatement stmt = con.prepareStatement(sql);
+            PreparedStatement stmt2 = con.prepareStatement(sql2);
             int linha = this.jtCliente1.getSelectedRow();
             stmt.setString(1, jtCliente1.getValueAt(linha, 1).toString());
+            stmt2.setString(1, DateDATA.toString());
+            stmt2.setString(2, DateHORA.toString());
+            stmt2.setString(3, "camila_adm");
+            stmt2.setString(4, "excluir_mot");
             stmt.execute();
             stmt.close();
+            stmt2.execute();
+            stmt2.close();
             con.close();
             DefaultTableModel model = (DefaultTableModel) jtCliente1.getModel();
             model.removeRow(linha);
+            
+            
         }catch(SQLException e){
             JOptionPane.showMessageDialog(this, e);
         }
+        
+        
     }//GEN-LAST:event_btnExcluir1ActionPerformed
 
     /**

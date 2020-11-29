@@ -13,6 +13,10 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class motoristaGUI extends javax.swing.JFrame {
     
@@ -21,6 +25,8 @@ public class motoristaGUI extends javax.swing.JFrame {
     String Cidade;
     String Bairro;
     String Endereco;
+    
+    
     
     public void buscarCep(String cep) 
     {
@@ -466,6 +472,17 @@ public class motoristaGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_txtEmailActionPerformed
 
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
+        
+        String DateDATA, DateHORA;
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        Date relogio = new Date();
+        DateDATA = dateFormat.format(relogio);
+        
+        DateFormat dateFormat2 = new SimpleDateFormat("HH:mm:ss");
+        Date relogio2 = new Date();
+        DateHORA = dateFormat2.format(relogio2);
+        
+                
         motorista motoristas = new motorista();
         motoristas.setNome_mot(txtNome.getText());
         motoristas.setCpf_mot(txtCPF.getText());
@@ -490,6 +507,7 @@ public class motoristaGUI extends javax.swing.JFrame {
         else{
             motoristaDAO dao = new motoristaDAO();
             dao.adiciona(motoristas);
+            
             lblMensagem.setText("Cadastro efetuado com SUCESSO!");
             
             txtNome.setText("");
@@ -505,6 +523,25 @@ public class motoristaGUI extends javax.swing.JFrame {
             txtEmail.setText("");
             txtLogin.setText("");
             txtSenha.setText("");
+            
+      
+            try{
+                Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/itruck","postgres","camilafatec");
+                String sql = "insert into auditoria(data_aud, hora_aud, usu_aud, querry_aud) values (?,?,?,?)";
+                PreparedStatement stmt = con.prepareStatement(sql);
+                stmt.setString(1, DateDATA.toString());
+                stmt.setString(2, DateHORA.toString());
+                stmt.setString(3, "camila_adm");
+                stmt.setString(4, "cad_mot");
+                stmt.execute();
+                con.close();
+                
+            }
+            catch(SQLException e){
+                JOptionPane.showMessageDialog(this, e);
+            }
+            
+            
         }
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
