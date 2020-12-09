@@ -76,9 +76,9 @@
                      </tr>
                       <tr>
                             <td>Sprint 03</td>
-                            <td>A combinar com a empresa.</td>
+                            <td>Relatórios do Sistema e Auditoria.</td>
                             <td>09/11/2020 a 29/11/2020</td>
-                            <td>Programando...</td>
+                            <td><a href="https://github.com/thaisrabelo/iTruck/tree/sprint03">Visualizar</a></td>
                      </tr>
               </tbody>
        </table>
