@@ -14,8 +14,7 @@
             <li><a href="#funcionalidades">Funcionalidades</a></li>
             <li><a href="#tecnologias">Tecnologias utilizadas</a></li>
             <li><a href="#cards">Cards das Sprints do sistema</a></li>
-            <li><a href="#user_story">User Stories por Sprint</a></li>
-            <li><a href="#progresso">Nosso Progresso</a></li>
+            <li><a href="#user_story">User Stories</a></li>
             <li><a href="#wireframes">Wireframes do iTruck</a></li>
             <li><a href="#documentacao">Documentação</a></li>
         </ul>
