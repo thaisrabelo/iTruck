@@ -156,6 +156,7 @@
             </section>
             <section>
             <p><h2 id="documentacao">Documentação :open_file_folder:</h2></p>
+              <p><a href="https://github.com/thaisrabelo/iTruck/tree/main/documentacao">Documentação</a></p>
             <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
 </body>
