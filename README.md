@@ -152,6 +152,27 @@
             </section>
             <section>
             <p><h2 id="wireframes">Wireframes do iTruck :city_sunrise::city_sunset:</h2></p>
+            <p><h3>CRUD Motorista</h3></p>
+            <p><img src="./wireframes/cadastro_motorista.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/vizualizar_motoristas.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/atualizar_motorista.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/excluir_motorista.gif" width=500px height=500px></p>
+            <p><h3>CRUD Funcionários</h3></p>
+             <p><img src="./wireframes/cadastro_funcionario.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/vizualizar_funcionario.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/atualizar_funcionario.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/excluir_funcionario.gif" width=500px height=500px></p>
+            <p><h3>CRUD Veiculos</h3></p>
+             <p><img src="./wireframes/cadastro_veiculo.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/vizualizar_veiculos.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/atualizar_veiculo.gif" width=500px height=500px></p>
+            <p><img src="./wireframes/excluir_veiculos.gif" width=500px height=500px></p>
+            <p><h3>Jornada</h3></p>
+             <p><img src="./wireframes/jornada.gif" width=500px height=500px></p>
+             <p><h3>Relatório</h3></p>
+             <p><img src="./wireframes/relatorio.gif" width=500px height=500px></p>
+             <p><h3>Auditoria</h3></p>
+             <p><img src="./wireframes/auditoria.gif" width=500px height=500px></p>
             <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
             <section>
