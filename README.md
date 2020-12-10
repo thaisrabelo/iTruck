@@ -1,7 +1,7 @@
 <body>
     <nav>
-        <p><img src="https://img.shields.io/badge/S%20T%20A%20T%20U%20S%20D%20O%20P%20R%20O%20J%20E%20T%20O-EM%20PROGRESSO-blueviolet"></p>
-        <p><img src="https://img.shields.io/badge/S%20P%20R%20I%20N%20T%20A%20T%20U%20A%20L-SPRINT%2002-blue"></p>
+        <p><img src="https://img.shields.io/badge/S%20T%20A%20T%20U%20S%20D%20O%20P%20R%20O%20J%20E%20T%20O-FINALIZADO-blueviolet"></p>
+        <p><img src="https://img.shields.io/badge/S%20P%20R%20I%20N%20T%20A%20T%20U%20A%20L-FINALIZADO-blue"></p>
         <p id="topo"><h1>iTruck :articulated_lorry:</h1></p>
         <p>Seja bem vindo ao repositório do iTruck!</p>
         <p><h2>Índice</h2></p>
@@ -41,8 +41,6 @@
             <p><a href="https://www.linkedin.com/in/thais-rabelo/"><img src="https://img.shields.io/badge/Scrum%20Master-Thais%20Rabelo-blue"></a></p>
             <p><a href="#"><img src="https://img.shields.io/badge/Product%20Owner%2F%20Dev%20Team-Camila%20Pacheco-blue"></a></p>
             <p><a href="#"><img src="https://img.shields.io/badge/Dev%20Team-Pedro%20Reginaldo-blue"></a></p>
-            <p><a href="#"><img src="https://img.shields.io/badge/Dev%20Team-Leandro%20Gomes-blue"></a></p>
-            <p><a href="#"><img src="https://img.shields.io/badge/Dev%20Team-Talita%20Marques-blue"></a></p>
             <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
         <section>
@@ -88,9 +86,9 @@
             <p><h2 id="funcionalidades">Funcionalidades :wrench: </h2></p>
             <p><img src="https://img.shields.io/badge/Cadastrar%20Funcion%C3%A1rio-PRONTO-success">  <img src="https://img.shields.io/badge/Visualizar%20Funcion%C3%A1rio-PRONTO-success">  <img src="https://img.shields.io/badge/Atualizar%20Funcion%C3%A1rio-PRONTO-success">  <img src="https://img.shields.io/badge/Deletar%20Funcion%C3%A1rio-PRONTO-success"></p>
             <p><img src="https://img.shields.io/badge/Cadastrar%20Ve%C3%ADculo-PRONTO-success">  <img src="https://img.shields.io/badge/Visualizar%20Ve%C3%ADculo-PRONTO-success">  <img src="https://img.shields.io/badge/Atualizar%20Ve%C3%ADculo-PRONTO-success">  <img src="https://img.shields.io/badge/Deletar%20Ve%C3%ADculo-PRONTO-success"></p>
-            <p><img src="https://img.shields.io/badge/Cadastrar%20Filial-PRONTO-success">  <img src="https://img.shields.io/badge/Visualzar%20Filial-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Atualizar%20Filial-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Deletar%20Filial-EM ANDAMENTO-yellow"></p>
-            <p><img src="https://img.shields.io/badge/Cadastrar%20Estado-PRONTO-success">  <img src="https://img.shields.io/badge/Visualzar%20Estado-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Atualizar%20Estado-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Deletar%20Estado-EM ANDAMENTO-yellow"></p>
-            <p><img src="https://img.shields.io/badge/Cadastrar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Visualzar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Atualizar%20Jornada-EM ANDAMENTO-yellow">  <img src="https://img.shields.io/badge/Deletar%20Jornada-EM ANDAMENTO-yellow"></p>
+            <p><img src="https://img.shields.io/badge/Cadastrar%20Filial-PRONTO-success">  <img src="https://img.shields.io/badge/Visualzar%20Filial-PRONTO-success">  <img src="https://img.shields.io/badge/Atualizar%20Filial-PRONTO-success">  <img src="https://img.shields.io/badge/Deletar%20Filial-PRONTO-success"></p>
+            <p><img src="https://img.shields.io/badge/Cadastrar%20Estado-PRONTO-success">  <img src="https://img.shields.io/badge/Visualzar%20Estado-PRONTO-success">  <img src="https://img.shields.io/badge/Atualizar%20Estado-PRONTO-success">  <img src="https://img.shields.io/badge/Deletar%20Estado-PRONTO-success"></p>
+            <p><img src="https://img.shields.io/badge/Cadastrar%20Jornada-PRONTO-success">  <img src="https://img.shields.io/badge/Visualzar%20Jornada-PRONTO-success">  <img src="https://img.shields.io/badge/Atualizar%20Jornada-PRONTO-success">  <img src="https://img.shields.io/badge/Deletar%20Jornada-PRONTO-success"></p>
              <p><a href="#topo">Voltar ao Topo</a></p>
         </section>
         <section>
@@ -115,8 +113,8 @@
             <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
             <section>
-            <p><h2 id="user_story"> User Stories por Sprint :runner: </h2></p>
-            <p><h3> Sprint 01 </h3></p>
+            <p><h2 id="user_story"> User Stories :runner: </h2></p>
+            <p><h3></h3></p>
             <p><img src="./src/img/userstories/01.png" width=250px height=250px>
             <img src="./src/img/userstories/02.png" width=250px height=250px>
             <img src="./src/img/userstories/03.png" width=250px height=250px>
@@ -126,7 +124,7 @@
             <img src="./src/img/userstories/09.png" width=250px height=250px>
             <img src="./src/img/userstories/10.png" width=250px height=250px></p>
             <p text-align=right><a href="#topo">Voltar ao Topo</a></p>
-            <p><h3> Sprint 02 </h3></p>
+            <p><h3> </h3></p>
             <p><img src="./src/img/userstories/11.png" width=250px height=250px>
             <img src="./src/img/userstories/12.png" width=250px height=250px>
             <img src="./src/img/userstories/13.png" width=250px height=250px>
@@ -150,10 +148,6 @@
             <img src="./src/img/userstories/42.png" width=250px height=250px>
             <img src="./src/img/userstories/43.png" width=250px height=250px>
             <img src="./src/img/userstories/47.png" width=250px height=250px></p>
-            <p><a href="#topo">Voltar ao Topo</a></p>
-            </section>
-            <section>
-            <p><h2 id="progresso">Nosso Progresso :tada: :confetti_ball:</h2></p>
             <p><a href="#topo">Voltar ao Topo</a></p>
             </section>
             <section>
