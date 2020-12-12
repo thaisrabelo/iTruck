@@ -128,8 +128,6 @@ public class atualizarfuncionarioGUI extends javax.swing.JFrame {
 
         jButton1.setText("jButton1");
 
-        jLabel18.setIcon(new javax.swing.ImageIcon("C:\\Users\\kiabi\\Desktop\\logo.png")); // NOI18N
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         Painel.setBackground(new java.awt.Color(240, 252, 255));
@@ -321,8 +319,6 @@ public class atualizarfuncionarioGUI extends javax.swing.JFrame {
                 btnBuscarActionPerformed(evt);
             }
         });
-
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\kiabi\\Desktop\\logo.png")); // NOI18N
 
         txtPesq.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         txtPesq.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 100, 120)));
